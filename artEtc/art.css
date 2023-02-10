@@ -157,3 +157,57 @@ padding: 0px;
     
     border-radius: 10px;
 }
+
+/*New day*/
+
+.art{
+    color: white;
+    margin-top: 80px;
+    padding: 0%;
+}
+.heading{
+    width: 100%;
+    position: relative;
+    max-width: 1290px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+/*section 2nd*/
+#section{
+    height: 150px;
+    background-color: black;
+    text-align: center;
+
+}
+.slideshow{
+    margin: 0px;
+    padding: 13px;
+    margin-top: 40px;
+    display: flex;
+}
+#section-1{
+    background-color: black;
+    margin-top: -40px;
+    display: flex;
+}
+.slide2 img{
+    height: 400px;
+    display: flex;
+}
+.slide2{
+    margin-top: 40px;
+}
+.img-text{
+    color: white;
+}
+.img-text2{
+    color: white;
+}
+.multiple-slider{
+    display: flex;
+}
+.slide{
+    display: flex;
+}
+
