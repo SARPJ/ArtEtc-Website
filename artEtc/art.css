@@ -115,10 +115,15 @@ body {
 .page {
   position: sticky;
   background-color: black;
-  background-image: url(https://artetcs.com/wp-content/uploads/2022/07/71aqaUDyGbL._SY800_.jpg);
+  background-image: url(https://www.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_13191135.htm#query=artistic%20background&position=14&from_view=keyword&track=ais);
+  background-repeat: no-repeat;
+  
+  opacity: 0.9;
   display: flex;
   margin: 0px;
-  z-index: 35px;
+  overflow: hidden;
+  
+
 
 }
 .topsection {
@@ -126,9 +131,10 @@ body {
   margin: 70px;
   margin-left: 150px;
 }
-.banner {
+.Banner {
   padding: 25px;
   margin: 34px;
+  margin-right: -832px;
 }
 .banner1 {
   color: white;
@@ -159,6 +165,8 @@ body {
   flex-grow: 1;
   display: inline-block;
   color: white;
+  margin-left: -1059px;
+  margin-top: 169px;
 }
 .btn {
   margin-top: 50px;
@@ -388,10 +396,48 @@ img:hover {
 
 /* About section */
 #info-section{
-  background-color: rgb(77, 73, 73);
+  border-top: 2px solid #f3f4f8;
+
+  background-color: rgb(27, 27, 27);
   margin:-20px;
   padding: 0px;
   height: 400px;
+}
+.link img{
+  margin-left: 350px;
+  margin-top: -30px;
+  margin-right: -289px
+}
+.contactus{
+  margin-top: -50px;
+  margin-left: 1040px;
+
+}
+.fb{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  
+}
+.ins{
+  height: 43px;
+  width: 40px;
+  cursor: pointer;
+}
+.linked{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.mail{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.pintrest{
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
 }
 .info{
   margin:20px;
@@ -411,4 +457,33 @@ img:hover {
   padding: 0px;
   margin-left: 43px;
 
+}
+.info1{
+  cursor: pointer;
+}
+.btn{
+  background-color: rgb(27, 27, 27);
+  margin-top: -120px;
+  margin-left: 1079px;
+}
+.btnn{
+  border: 1px solid #dde0eb;
+  background-color: #0a0a0a;
+  color: #dde0eb;
+  margin: 5px;
+   
+  padding: 5px;
+  cursor: pointer;
+}
+.sec{
+  border-top: 2px solid;
+  border-color: aliceblue;
+  
+  background-color: #0a0a0a;
+  color: #dde0eb;
+  height: 40px;
+}
+.center{
+  text-align: center;
+  padding-top: 10px;
 }
